@@ -24,19 +24,19 @@ enable-multiworld-chat: false
 # Available PureChat tags: {display_name}, {msg}, {fac_name}, {fac_rank}, {prefix}, {suffix}, {world}
 groups:
   Guest:
-    chat: "&3&l{prefix}&e[Guest]&f&r {display_name} &7> {msg}"
-    nametag: "&3&l{prefix}&e[Guest]&f&r {display_name}"
+    chat: 
+    nametag: "&e&r{display_name}"
     worlds: []
   Admin:
-    chat: "&3&l{prefix}&c[Admin]&f&r {display_name} &7> {msg}"
-    nametag: "&3&l{prefix}&c[Admin]&f&r {display_name}"
+    chat:
+    nametag: "&c&r{display_name}"
     worlds: []
   Owner:
-    chat: "&3&l{prefix}&a[Owner]&f&r {display_name} &7> {msg}"
-    nametag: "&3&l{prefix}&a[Owner]&f&r {display_name}"
+    chat:
+    nametag: "&4&r{display_name}"
     worlds: []
   OP:
-    chat: "&3&l{prefix}&9[OP]&f&r {display_name} &7> {msg}"
-    nametag: "&3&l{prefix}&9[OP]&f&r {display_name}"
+    chat:
+    nametag: "&6&r{display_name}"
     worlds: []
 ...
